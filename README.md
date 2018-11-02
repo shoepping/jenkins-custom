@@ -6,5 +6,6 @@
 * Copy above script output (minus last line, the one starting with `Result: [`), sort and update [plugins.txt](plugins.txt)
 
 ## Docker Hub Automated Build
+* Me on [docker hub](https://hub.docker.com/r/shoepping/jenkins-custom/)
 * The build makes use of [post push hook](hooks/post_push)
 * [Reference](https://docs.docker.com/docker-cloud/builds/advanced/)
