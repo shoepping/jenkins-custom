@@ -110,6 +110,7 @@ monitoring:1.74.0
 multiple-scms:0.6
 pam-auth:1.4
 parameterized-trigger:2.35.2
+performance:3.13
 pipeline-build-step:2.7
 pipeline-github-lib:1.0
 pipeline-graph-analysis:1.9
