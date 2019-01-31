@@ -64,7 +64,7 @@ envinject:2.1.6
 envinject-api:1.5
 external-monitor-job:1.7
 favorite:2.3.2
-git:3.9.3
+git:4.0.0-rc
 git-client:3.0.0-rc
 github:1.29.3
 github-api:1.95
