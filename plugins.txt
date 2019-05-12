@@ -85,7 +85,6 @@ jacoco:3.0.4
 javadoc:1.5
 jdk-tool:1.2
 jenkins-design-language:1.16.0
-jenkins-jira-issue-updater:1.18
 jira:3.0.7
 job-import-plugin:3.2
 job-restrictions:0.8
