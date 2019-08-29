@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.176.2
+FROM jenkins/jenkins:2.176.3
 
 ENV DOCKER_VERSION 5:19.03.1~3-0~debian-stretch
 
