@@ -1,4 +1,3 @@
-
 ace-editor:1.1
 analysis-core:1.96
 ansible:1.0
@@ -7,7 +6,6 @@ antisamy-markup-formatter:1.5
 apache-httpcomponents-client-4-api:4.5.5-3.0
 authentication-tokens:1.3
 azure-credentials:1.6.1
-backup:1.6.1
 basic-branch-build-strategies:1.3.1
 bitbucket:1.1.8
 bitbucket-build-status-notifier:1.4.1
@@ -96,7 +94,6 @@ junit-attachments:1.5
 ldap:1.20
 leastload:2.0.1
 lockable-resources:2.5
-m2release:0.14.0
 mailer:1.23
 managed-scripts:1.4
 mapdb-api:1.0.9.0
@@ -148,7 +145,7 @@ ssh-agent:1.17
 ssh-credentials:1.16
 ssh-slaves:1.29.4
 stashNotifier:1.18
-structs:1.19
+structs:1.20
 subversion:2.12.1
 tasks:4.53
 throttle-concurrents:2.0.1
@@ -161,7 +158,7 @@ windows-slaves:1.4
 workflow-aggregator:2.6
 workflow-api:2.36
 workflow-basic-steps:2.15
-workflow-cps:2.67
+workflow-cps:2.73
 workflow-cps-global-lib:2.13
 workflow-durable-task-step:2.30
 workflow-job:2.32
