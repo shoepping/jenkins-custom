@@ -60,8 +60,6 @@ docker-commons:1.14
 docker-workflow:1.18
 durable-task:1.29
 email-ext:2.66
-envinject:2.1.6
-envinject-api:1.5
 external-monitor-job:1.7
 favorite:2.3.2
 git:4.0.0-rc
