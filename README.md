@@ -1,4 +1,11 @@
-# Jenkins pre-configured with plugins
+# Jenkins LTS pre-configured with plugins
+
+## About this image
+* This image 
+    * aims to follow latest [Jenkins LTS ](https://jenkins.io/changelog-stable/)
+    * has specific plugins installed
+    * has docker installed
+    * has docker compose installed
 
 ## How to update plugins
 * Execute script [update_plugins.groovy](tools/update_plugins.groovy) in [jenkins](http://jenkins.example.org/script)
