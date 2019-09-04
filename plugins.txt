@@ -33,7 +33,6 @@ blueocean-rest-impl:1.16.0
 blueocean-web:1.16.0
 bouncycastle-api:2.17
 branch-api:2.4.0
-build-pipeline-plugin:1.5.8
 build-timeout:1.19
 build-timestamp:1.0.3
 checkstyle:4.0.0
@@ -102,7 +101,7 @@ mercurial:2.6
 momentjs:1.1.1
 monitoring:1.77.0
 multiple-scms:0.6
-pam-auth:1.5
+pam-auth:1.5.1
 parameterized-trigger:2.35.2
 performance:3.16
 pipeline-build-step:2.9
@@ -129,7 +128,7 @@ release:2.10.2
 resource-disposer:0.12
 run-condition:1.2
 schedule-build:0.5.1
-scm-api:2.4.1
+scm-api:2.6.3
 script-security:1.62
 seleniumhtmlreport:1.0
 slack:2.32
@@ -146,7 +145,7 @@ subversion:2.12.1
 tasks:4.53
 throttle-concurrents:2.0.1
 timestamper:1.9
-token-macro:2.7
+token-macro:2.8
 trilead-api:1.0.3
 uno-choice:2.1
 variant:1.2
@@ -155,7 +154,7 @@ workflow-aggregator:2.6
 workflow-api:2.36
 workflow-basic-steps:2.15
 workflow-cps:2.73
-workflow-cps-global-lib:2.13
+workflow-cps-global-lib:2.15
 workflow-durable-task-step:2.30
 workflow-job:2.32
 workflow-multibranch:2.21
