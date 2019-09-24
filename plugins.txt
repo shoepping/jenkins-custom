@@ -75,7 +75,6 @@ handlebars:1.1.1
 handy-uri-templates-2-api:2.1.7-1.0
 html5-notifier-plugin:1.5
 htmlpublisher:1.18
-ivy:2.0
 jackson2-api:2.9.9.1
 jacoco:3.0.4
 javadoc:1.5
