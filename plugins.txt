@@ -62,8 +62,8 @@ durable-task:1.30
 email-ext:2.68
 external-monitor-job:1.7
 favorite:2.3.2
-git:4.0.0-rc
-git-client:3.0.0-rc
+git:4.0.0-beta11
+git-client:3.0.0-beta11
 github:1.29.4
 github-api:1.95
 github-branch-source:2.5.8
