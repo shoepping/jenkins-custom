@@ -15,7 +15,7 @@
 * Add plugin and plugin dependencies in [plugins.txt](./plugins.txt), in alphabetically order please, with format:
     * `plugin_id:version`
 
-## How to update plugins
+## How to update all plugins
 * Execute script [update_plugins.groovy](tools/update_plugins.groovy) in [jenkins](http://jenkins.example.org/script)
 * Execute script [list_plugins.groovy](tools/list_plugins.groovy) in [jenkins](http://jenkins.example.org/script)
 * Copy above script output (minus last line, the one starting with `Result: [`), sort and update [plugins.txt](plugins.txt)
