@@ -1,4 +1,4 @@
-Jenkins.instance.pluginManager.plugins.each{
-  plugin ->
-    println ("${plugin.getShortName()}:${plugin.getVersion()}")
-}
+new ArrayList<String>(Jenkins.instance.pluginManager.plugins).sort { it.shortName }
+              .each { plugin ->
+                   println ("${plugin.shortName}:${plugin.version}")
+              }
