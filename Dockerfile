@@ -1,7 +1,5 @@
 FROM jenkins/jenkins:2.190.3
 
-ENV DOCKER_VERSION 5:19.03.5~3-0~debian-stretch
-
 COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
 RUN /usr/local/bin/install-plugins.sh < /usr/share/jenkins/ref/plugins.txt
 
@@ -25,14 +23,18 @@ RUN add-apt-repository \
 
 RUN apt-get update
 RUN apt-cache madison docker-ce
+
+ENV DOCKER_VERSION=19.03.5
+ENV DEBIAN_DOCKER_VERSION=5:${DOCKER_VERSION}~3-0~debian-stretch
+
 RUN apt-get install -y \
-        docker-ce=${DOCKER_VERSION} \
-        docker-ce-cli=${DOCKER_VERSION} \
+        docker-ce=${DEBIAN_DOCKER_VERSION} \
+        docker-ce-cli=${DEBIAN_DOCKER_VERSION} \
         containerd.io
 
 RUN usermod -aG docker jenkins
 
-ENV DOCKER_COMPOSE_VERSION=1.24.1
+ENV DOCKER_COMPOSE_VERSION=1.25.0
 RUN curl -L "https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE_VERSION}/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
 RUN chmod +x /usr/local/bin/docker-compose
