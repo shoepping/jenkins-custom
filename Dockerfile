@@ -1,6 +1,6 @@
-FROM jenkins/jenkins:2.190.2
+FROM jenkins/jenkins:2.190.3
 
-ENV DOCKER_VERSION 5:19.03.2~3-0~debian-stretch
+ENV DOCKER_VERSION 5:19.03.5~3-0~debian-stretch
 
 COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
 RUN /usr/local/bin/install-plugins.sh < /usr/share/jenkins/ref/plugins.txt
