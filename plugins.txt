@@ -105,7 +105,7 @@ multiple-scms:0.6
 pam-auth:1.6
 parameterized-trigger:2.35.2
 performance:3.17
-pipeline-build-step:2.9
+pipeline-build-step:2.10
 pipeline-github-lib:1.0
 pipeline-graph-analysis:1.10
 pipeline-input-step:2.11
@@ -120,6 +120,7 @@ pipeline-stage-step:2.3
 pipeline-stage-tags-metadata:1.4.0
 pipeline-stage-view:2.12
 plain-credentials:1.5
+plot:2.1.3
 publish-over:0.22
 publish-over-ssh:1.20.1
 publish-to-bitbucket:0.4
@@ -154,12 +155,12 @@ windows-slaves:1.5
 workflow-aggregator:2.6
 workflow-api:2.37
 workflow-basic-steps:2.18
-workflow-cps:2.76
+workflow-cps:2.77
 workflow-cps-global-lib:2.15
 workflow-durable-task-step:2.35
 workflow-job:2.36
 workflow-multibranch:2.21
 workflow-scm-step:2.9
-workflow-step-api:2.20
+workflow-step-api:2.21
 workflow-support:3.3
 ws-cleanup:0.37
