@@ -17,8 +17,10 @@
 
 ## How to update
 ### All plugins
-* Execute script [update_plugins.groovy](tools/update_plugins.groovy) in [jenkins](http://jenkins.example.org/script)
-* Execute script [list_plugins.groovy](tools/list_plugins.groovy) in [jenkins](http://jenkins.example.org/script)
+* Update plugins in jenkins
+    * Programmatic: execute script [update_plugins.groovy](tools/update_plugins.groovy) in [jenkins](http://jenkins.example.org/script)
+    * Manual: Jenkins home > Manage Jenkins > Manage Plugins
+* Retrieve plugin list, execute script [list_plugins.groovy](tools/list_plugins.groovy) in [jenkins](http://jenkins.example.org/script)
 * Copy above script output (minus last line, the one starting with `Result: [`), and update [plugins.txt](plugins.txt)
 ### Base image (Jenkins LTS version)
 * Set base image to latest/desired Jenkins LTS [version](https://jenkins.io/changelog-stable/)
