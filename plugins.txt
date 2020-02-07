@@ -67,7 +67,7 @@ git-client:3.1.1
 git-server:1.9
 github:1.29.5
 github-api:1.106
-github-branch-source:2.5.8
+github-branch-source:2.6.0
 global-slack-notifier:1.5
 gradle:1.36
 groovy:2.2
@@ -133,7 +133,7 @@ schedule-build:0.5.1
 scm-api:2.6.3
 script-security:1.69
 seleniumhtmlreport:1.0
-slack:2.35
+slack:2.36
 slave-status:1.6
 sonar:2.11
 sse-gateway:1.20
