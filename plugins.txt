@@ -17,7 +17,7 @@ blueocean-commons:1.22.0
 blueocean-config:1.22.0
 blueocean-core-js:1.22.0
 blueocean-dashboard:1.22.0
-blueocean-display-url:2.3.0
+blueocean-display-url:2.3.1
 blueocean-events:1.22.0
 blueocean-executor-info:1.22.0
 blueocean-git-pipeline:1.22.0
@@ -131,7 +131,7 @@ resource-disposer:0.14
 run-condition:1.2
 schedule-build:0.5.1
 scm-api:2.6.3
-script-security:1.69
+script-security:1.70
 seleniumhtmlreport:1.0
 slack:2.36
 slave-status:1.6
@@ -143,7 +143,7 @@ ssh-credentials:1.18.1
 ssh-slaves:1.31.1
 stashNotifier:1.20
 structs:1.20
-subversion:2.13.0
+subversion:2.13.1
 tasks:4.53
 throttle-concurrents:2.0.1
 timestamper:1.10
@@ -155,7 +155,7 @@ windows-slaves:1.6
 workflow-aggregator:2.6
 workflow-api:2.39
 workflow-basic-steps:2.19
-workflow-cps:2.78
+workflow-cps:2.79
 workflow-cps-global-lib:2.15
 workflow-durable-task-step:2.35
 workflow-job:2.36
