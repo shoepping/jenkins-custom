@@ -1,4 +1,10 @@
-FROM jenkins/jenkins:2.204.2
+FROM jenkins/jenkins:2.204.4
+
+ENV DOCKER_VERSION=19.03.7
+ENV DOCKER_COMPOSE_VERSION=1.25.4
+
+LABEL DOCKER_VERSION=${DOCKER_VERSION}
+LABEL DOCKER_COMPOSE_VERSION=${DOCKER_COMPOSE_VERSION}
 
 COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
 RUN /usr/local/bin/install-plugins.sh < /usr/share/jenkins/ref/plugins.txt
@@ -24,7 +30,6 @@ RUN add-apt-repository \
 RUN apt-get update
 RUN apt-cache madison docker-ce
 
-ENV DOCKER_VERSION=19.03.5
 ENV DEBIAN_DOCKER_VERSION=5:${DOCKER_VERSION}~3-0~debian-stretch
 
 RUN apt-get install -y \
@@ -34,7 +39,6 @@ RUN apt-get install -y \
 
 RUN usermod -aG docker jenkins
 
-ENV DOCKER_COMPOSE_VERSION=1.25.4
 RUN curl -L "https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE_VERSION}/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
 RUN chmod +x /usr/local/bin/docker-compose
