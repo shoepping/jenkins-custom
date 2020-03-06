@@ -3,8 +3,10 @@ FROM jenkins/jenkins:2.204.4
 ENV DOCKER_VERSION=19.03.7
 ENV DOCKER_COMPOSE_VERSION=1.25.4
 
-LABEL DOCKER_VERSION=${DOCKER_VERSION}
 LABEL DOCKER_COMPOSE_VERSION=${DOCKER_COMPOSE_VERSION}
+LABEL DOCKER_VERSION=${DOCKER_VERSION}
+# JENKINS_VERSION defined in parent image
+LABEL JENKINS_VERSION=${JENKINS_VERSION}
 
 COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
 RUN /usr/local/bin/install-plugins.sh < /usr/share/jenkins/ref/plugins.txt
