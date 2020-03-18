@@ -41,7 +41,7 @@ cloudbees-bitbucket-branch-source:2.7.0
 cloudbees-folder:6.11.1
 cobertura:1.16
 code-coverage-api:1.1.4
-codesonar:2.0.8
+codesonar:2.0.9
 command-launcher:1.4
 conditional-buildstep:1.3.6
 config-file-provider:3.6.3
