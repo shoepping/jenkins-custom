@@ -106,7 +106,7 @@ multiple-scms:0.6
 pam-auth:1.6
 parameterized-trigger:2.36
 performance:3.17
-pipeline-build-step:2.11
+pipeline-build-step:2.12
 pipeline-github-lib:1.0
 pipeline-graph-analysis:1.10
 pipeline-input-step:2.11
