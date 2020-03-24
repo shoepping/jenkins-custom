@@ -2,7 +2,7 @@ ace-editor:1.1
 analysis-core:1.96
 ansible:1.0
 ant:1.11
-antisamy-markup-formatter:1.8
+antisamy-markup-formatter:2.0
 apache-httpcomponents-client-4-api:4.5.10-2.0
 atlassian-jira-software-cloud:1.0.4
 authentication-tokens:1.3
