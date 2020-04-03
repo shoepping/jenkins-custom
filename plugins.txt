@@ -137,7 +137,7 @@ seleniumhtmlreport:1.0
 slack:2.37
 slave-status:1.6
 sonar:2.11
-sse-gateway:1.22
+sse-gateway:1.23
 ssh:2.6.1
 ssh-agent:1.19
 ssh-credentials:1.18.1
