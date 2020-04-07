@@ -66,7 +66,7 @@ git:4.2.2
 git-client:3.2.1
 git-server:1.9
 github:1.29.5
-github-api:1.106
+github-api:1.109
 github-branch-source:2.6.0
 global-slack-notifier:1.5
 gradle:1.36
@@ -89,7 +89,7 @@ jquery-detached:1.2.1
 jsch:0.1.55.2
 junit:1.28
 junit-attachments:1.6
-ldap:1.21
+ldap:1.22
 leastload:2.0.1
 lockable-resources:2.7
 mailer:1.30
@@ -99,7 +99,7 @@ matrix-auth:2.5
 matrix-combinations-parameter:1.3.1
 matrix-project:1.14
 maven-plugin:3.5
-mercurial:2.8
+mercurial:2.9
 momentjs:1.1.1
 monitoring:1.82.0
 multiple-scms:0.6
