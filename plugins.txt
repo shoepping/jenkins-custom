@@ -92,7 +92,7 @@ junit-attachments:1.6
 ldap:1.22
 leastload:2.0.1
 lockable-resources:2.7
-mailer:1.30
+mailer:1.31
 managed-scripts:1.4
 mapdb-api:1.0.9.0
 matrix-auth:2.5
