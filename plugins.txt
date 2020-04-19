@@ -46,7 +46,7 @@ command-launcher:1.4
 conditional-buildstep:1.3.6
 config-file-provider:3.6.3
 copyartifact:1.43.1
-credentials:2.3.5
+credentials:2.3.6
 credentials-binding:1.21
 cucumber-living-documentation:2.2.2
 cucumber-perf:2.0.9
