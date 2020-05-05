@@ -87,7 +87,7 @@ job-restrictions:0.8
 jquery:1.12.4-1
 jquery-detached:1.2.1
 jsch:0.1.55.2
-junit:1.28
+junit:1.29
 junit-attachments:1.6
 ldap:1.24
 leastload:2.0.1
@@ -95,7 +95,7 @@ lockable-resources:2.8
 mailer:1.32
 managed-scripts:1.4
 mapdb-api:1.0.9.0
-matrix-auth:2.5
+matrix-auth:2.6
 matrix-combinations-parameter:1.3.1
 matrix-project:1.14
 maven-plugin:3.6
