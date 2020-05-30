@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.222.3
+FROM jenkins/jenkins:2.222.4
 
 ENV DOCKER_VERSION=19.03.8
 ENV DOCKER_COMPOSE_VERSION=1.25.5
