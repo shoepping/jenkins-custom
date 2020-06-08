@@ -38,7 +38,7 @@ build-timeout:1.20
 build-timestamp:1.0.3
 checkstyle:4.0.0
 cloudbees-bitbucket-branch-source:2.8.0
-cloudbees-folder:6.12
+cloudbees-folder:6.13
 cobertura:1.16
 code-coverage-api:1.1.6
 codesonar:2.0.9
@@ -66,8 +66,8 @@ git:4.2.2
 git-client:3.2.1
 git-server:1.9
 github:1.30.0
-github-api:1.111
-github-branch-source:2.7.1
+github-api:1.112.0
+github-branch-source:2.8.0
 global-slack-notifier:1.5
 gradle:1.36
 groovy:2.2
@@ -81,7 +81,7 @@ javadoc:1.5
 jaxb:2.3.0.1
 jdk-tool:1.4
 jenkins-design-language:1.23.2
-jira:3.0.17
+jira:3.0.18
 job-import-plugin:3.4
 job-restrictions:0.8
 jquery:1.12.4-1
@@ -133,7 +133,7 @@ resource-disposer:0.14
 run-condition:1.3
 schedule-build:0.5.1
 scm-api:2.6.3
-script-security:1.72
+script-security:1.73
 seleniumhtmlreport:1.0
 slack:2.40
 slave-status:1.6
@@ -150,7 +150,7 @@ tasks:4.53
 throttle-concurrents:2.0.2
 timestamper:1.11.3
 token-macro:2.12
-trilead-api:1.0.6
+trilead-api:1.0.8
 uno-choice:2.3
 variant:1.3
 windows-slaves:1.6
