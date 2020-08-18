@@ -1,7 +1,9 @@
-FROM jenkins/jenkins:2.235.2
+FROM jenkins/jenkins:2.235.4
 
+# https://github.com/docker/docker-ce/releases
 ENV DOCKER_VERSION=19.03.8
-ENV DOCKER_COMPOSE_VERSION=1.25.5
+# https://github.com/docker/compose/releases
+ENV DOCKER_COMPOSE_VERSION=1.26.2
 
 # JENKINS_VERSION defined in parent image
 LABEL DOCKER_COMPOSE_VERSION=${DOCKER_COMPOSE_VERSION} \
