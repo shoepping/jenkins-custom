@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.235.4
+FROM jenkins/jenkins:2.235.5
 
 # https://github.com/docker/docker-ce/releases
 ENV DOCKER_VERSION=19.03.8
