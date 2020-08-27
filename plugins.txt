@@ -39,7 +39,7 @@ build-timestamp:1.0.3
 build-token-root:1.6
 checks-api:0.2.3
 checkstyle:4.0.0
-cloudbees-bitbucket-branch-source:2.9.1
+cloudbees-bitbucket-branch-source:2.9.2
 cloudbees-folder:6.14
 cobertura:1.16
 code-coverage-api:1.2.0
@@ -59,14 +59,14 @@ dashboard-view:2.13
 disk-usage:0.28
 display-url-api:2.3.3
 docker-commons:1.17
-docker-workflow:1.23
+docker-workflow:1.24
 durable-task:1.34
 echarts-api:4.8.0-2
-email-ext:2.74
+email-ext:2.75
 external-monitor-job:1.7
 favorite:2.3.2
 git:4.3.0
-git-client:3.4.1
+git-client:3.4.2
 git-server:1.9
 github:1.31.0
 github-api:1.115
@@ -91,7 +91,7 @@ jquery:1.12.4-1
 jquery-detached:1.2.1
 jquery3-api:3.5.1-1
 jsch:0.1.55.2
-junit:1.31
+junit:1.32
 junit-attachments:1.6
 ldap:1.24
 leastload:3.0.0
@@ -141,7 +141,7 @@ schedule-build:0.5.1
 scm-api:2.6.3
 script-security:1.74
 seleniumhtmlreport:1.0
-slack:2.40
+slack:2.41
 slave-status:1.6
 snakeyaml-api:1.26.4
 sonar:2.11
