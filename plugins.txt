@@ -17,7 +17,7 @@ blueocean-commons:1.23.2
 blueocean-config:1.23.2
 blueocean-core-js:1.23.2
 blueocean-dashboard:1.23.2
-blueocean-display-url:2.3.1
+blueocean-display-url:2.4.0
 blueocean-events:1.23.2
 blueocean-executor-info:1.23.2
 blueocean-git-pipeline:1.23.2
@@ -65,7 +65,7 @@ echarts-api:4.8.0-2
 email-ext:2.75
 external-monitor-job:1.7
 favorite:2.3.2
-git:4.3.0
+git:4.4.0
 git-client:3.4.2
 git-server:1.9
 github:1.31.0
@@ -128,7 +128,7 @@ pipeline-stage-view:2.14
 pipeline-utility-steps:2.6.1
 plain-credentials:1.7
 plot:2.1.8
-plugin-util-api:1.2.2
+plugin-util-api:1.2.4
 publish-over:0.22
 publish-over-ssh:1.20.1
 publish-to-bitbucket:0.4
