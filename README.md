@@ -2,10 +2,11 @@
 
 ## About this image
 * This image
-    * aims to follow latest [Jenkins LTS](https://jenkins.io/changelog-stable/)
-    * has specific [plugins.txt](./plugins.txt) installed
-    * has docker installed
-    * has docker compose installed
+    * Uses as [Jenkins LTS](https://jenkins.io/changelog-stable/) as base image
+    * Is packed with:
+        * [plugins.txt](./plugins.txt)
+        * docker
+        * docker- compose
 
 ## How to install a new plugin
 * Find plugin id and it's dependencies:
