@@ -3,7 +3,7 @@ FROM jenkins/jenkins:2.235.5
 # https://github.com/docker/docker-ce/releases
 ENV DOCKER_VERSION=19.03.12
 # https://github.com/docker/compose/releases
-ENV DOCKER_COMPOSE_VERSION=1.26.2
+ENV DOCKER_COMPOSE_VERSION=1.27.0
 
 # JENKINS_VERSION defined in parent image
 LABEL DOCKER_COMPOSE_VERSION=${DOCKER_COMPOSE_VERSION} \
