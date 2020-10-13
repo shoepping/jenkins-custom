@@ -112,7 +112,6 @@ multiple-scms:0.6
 okhttp-api:3.14.9
 pam-auth:1.6
 parameterized-trigger:2.39
-performance:3.18
 pipeline-build-step:2.13
 pipeline-github-lib:1.0
 pipeline-graph-analysis:1.10
@@ -129,7 +128,6 @@ pipeline-stage-tags-metadata:1.7.2
 pipeline-stage-view:2.16
 pipeline-utility-steps:2.6.1
 plain-credentials:1.7
-plot:2.1.8
 plugin-util-api:1.2.5
 popper-api:1.16.0-6
 publish-over:0.22
