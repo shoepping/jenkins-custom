@@ -49,5 +49,7 @@ USER jenkins
 COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
 RUN /usr/local/bin/install-plugins.sh < /usr/share/jenkins/ref/plugins.txt
 
-# Skip setup wizard & configure content security content (for jmeter report plugin)
-ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=false"
+# -Djenkins.install.runSetupWizard=false -> skip setup wizard
+# -Dorg.jenkinsci.plugins.docker.workflow.client.DockerClient.CLIENT_TIMEOUT=240 -> this is an attempt to fix java.io.IOException: Failed to rm container
+# see https://issues.jenkins-ci.org/browse/JENKINS-42322?focusedCommentId=327839&page=com.atlassian.jira.plugin.system.issuetabpanels%3Acomment-tabpanel#comment-327839
+ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=false -Dorg.jenkinsci.plugins.docker.workflow.client.DockerClient.CLIENT_TIMEOUT=240"
