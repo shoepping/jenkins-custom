@@ -37,7 +37,6 @@ build-timeout:1.20
 build-timestamp:1.0.3
 build-token-root:1.7
 checks-api:1.1.0
-checkstyle:4.0.0
 cloudbees-bitbucket-branch-source:2.9.4
 cloudbees-folder:6.14
 cobertura:1.16
@@ -61,7 +60,6 @@ docker-commons:1.17
 docker-workflow:1.24
 durable-task:1.35
 echarts-api:4.9.0-2
-email-ext:2.79
 envinject-api:1.7
 external-monitor-job:1.7
 favorite:2.3.2
