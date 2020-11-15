@@ -148,7 +148,6 @@ ssh-slaves:1.31.2
 stashNotifier:1.20
 structs:1.20
 subversion:2.13.2
-tasks:4.53
 throttle-concurrents:2.0.3
 timestamper:1.11.8
 token-macro:2.12
