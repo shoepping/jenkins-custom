@@ -2,7 +2,7 @@
 
 ## About this image
 * This image
-    * Uses as [Jenkins LTS](https://jenkins.io/changelog-stable/) as base image
+    * Is based on [Jenkins LTS](https://jenkins.io/changelog-stable/)
     * Is packed with:
         * [plugins.txt](./plugins.txt)
         * docker
@@ -12,7 +12,6 @@
 * Find plugin id and it's dependencies:
     * Navigate to [Jenkis plugins](https://plugins.jenkins.io/) and search for desired plugin.
     * Go to plugin page and get plugin id (hint: search for string `ID:`)
-    * If the plugin has any dependencies get each dependency id and version.
 * Add plugin and plugin dependencies in [plugins.txt](./plugins.txt), in alphabetically order please, with format:
     * `plugin_id:version`
 
@@ -23,10 +22,13 @@
     * Manual: Jenkins home > Manage Jenkins > Manage Plugins
 * Retrieve plugin list, execute script [list_plugins.groovy](tools/list_plugins.groovy) in [jenkins](http://jenkins.example.org/script)
 * Copy above script output (minus last line, the one starting with `Result: [`), and update [plugins.txt](plugins.txt)
+
 ### Base image (Jenkins LTS version)
 * Set base image to latest/desired Jenkins LTS [version](https://jenkins.io/changelog-stable/)
+
 ### Docker
 * Set `DOCKER_VERSION` ([Dockerfile](./Dockerfile)) to latest/desired docker [version](https://github.com/docker/docker-ce/releases)
+
 ### Docker Compose
 * Set `DOCKER_COMPOSE_VERSION` ([Dockerfile](./Dockerfile)) to latest/desired Docker Compose [version](https://github.com/docker/compose/releases)
 
