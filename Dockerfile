@@ -1,7 +1,7 @@
-FROM jenkins/jenkins:2.263.1
+FROM jenkins/jenkins:2.263.1-lts-jdk11
 
 # https://github.com/docker/docker-ce/releases
-ENV DOCKER_VERSION=19.03.13
+ENV DOCKER_VERSION=20.10.0
 # https://github.com/docker/compose/releases
 ENV DOCKER_COMPOSE_VERSION=1.27.4
 
@@ -31,7 +31,7 @@ RUN add-apt-repository \
 RUN apt-get update
 RUN apt-cache madison docker-ce
 
-ENV DEBIAN_DOCKER_VERSION=5:${DOCKER_VERSION}~3-0~debian-stretch
+ENV DEBIAN_DOCKER_VERSION=5:${DOCKER_VERSION}~3-0~debian-buster
 
 RUN apt-get install -y \
         docker-ce=${DEBIAN_DOCKER_VERSION} \
