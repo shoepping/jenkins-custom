@@ -44,12 +44,12 @@ cobertura:1.16
 code-coverage-api:1.2.0
 codesonar:2.1.0
 command-launcher:1.5
-conditional-buildstep:1.4.0
+conditional-buildstep:1.4.1
 config-file-provider:3.7.0
 copyartifact:1.45.3
 credentials:2.3.14
 credentials-binding:1.24
-cucumber-living-documentation:3.0
+cucumber-living-documentation:3.1
 cucumber-perf:2.0.9
 cucumber-reports:5.4.0
 cucumber-slack-notifier:0.8.3
@@ -93,7 +93,7 @@ jquery:1.12.4-1
 jquery-detached:1.2.1
 jquery3-api:3.5.1-2
 jsch:0.1.55.2
-junit:1.46
+junit:1.47
 junit-attachments:1.6
 ldap:1.26
 leastload:3.0.0
@@ -126,7 +126,7 @@ pipeline-stage-tags-metadata:1.7.2
 pipeline-stage-view:2.19
 pipeline-utility-steps:2.6.1
 plain-credentials:1.7
-plugin-util-api:1.5.0
+plugin-util-api:1.6.0
 popper-api:1.16.0-7
 publish-over:0.22
 publish-over-ssh:1.22
