@@ -67,12 +67,12 @@ external-monitor-job:1.7
 favorite:2.3.2
 font-awesome-api:5.15.1-1
 forensics-api:0.7.0
-git:4.5.0
-git-client:3.5.1
+git:4.5.1
+git-client:3.6.0
 git-server:1.9
 github:1.32.0
 github-api:1.117
-github-branch-source:2.9.2
+github-branch-source:2.9.3
 global-slack-notifier:1.5
 gradle:1.36
 groovy:2.3
@@ -151,7 +151,7 @@ ssh-slaves:1.31.4
 stashNotifier:1.20
 structs:1.20
 subversion:2.13.2
-throttle-concurrents:2.0.3
+throttle-concurrents:2.1
 timestamper:1.11.8
 token-macro:2.13
 trilead-api:1.0.13
