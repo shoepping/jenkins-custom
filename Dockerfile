@@ -1,7 +1,7 @@
 FROM jenkins/jenkins:2.263.1-lts-jdk11
 
 # https://github.com/moby/moby/releases
-ENV DOCKER_VERSION=20.10.1
+ENV DOCKER_VERSION=20.10.2
 # https://github.com/docker/compose/releases
 ENV DOCKER_COMPOSE_VERSION=1.27.4
 
