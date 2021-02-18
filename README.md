@@ -9,19 +9,20 @@
         * docker- compose
 
 ## How to install a new plugin
-* Find plugin id and it's dependencies:
-    * Navigate to [Jenkis plugins](https://plugins.jenkins.io/) and search for desired plugin.
-    * Go to plugin page and get plugin id (hint: search for string `ID:`)
-* Add plugin and plugin dependencies in [plugins.txt](./plugins.txt), in alphabetically order please, with format:
-    * `plugin_id:version`
+* First, install desired plugin using Jenkins UI
+    * Jenkins home > Manage Jenkins > Manage Plugins > Available, search and in
+* Second, update plugin list used to build jenkins custom image (if this step is skipped, next time when the build env gets build the plugin will be missing)
+    * Retrieve plugin list, execute script [list_plugins.groovy](tools/list_plugins.groovy) in [jenkins](http://jenkins.example.org/script)
+    * Copy above script output (minus last line, the one starting with `Result: [`), and update [plugins.txt](plugins.txt)
+
 
 ## How to update
 ### All plugins
-* Update plugins in jenkins
-    * Programmatic: execute script [update_plugins.groovy](tools/update_plugins.groovy) in [jenkins](http://jenkins.example.org/script)
-    * Manual: Jenkins home > Manage Jenkins > Manage Plugins
-* Retrieve plugin list, execute script [list_plugins.groovy](tools/list_plugins.groovy) in [jenkins](http://jenkins.example.org/script)
-* Copy above script output (minus last line, the one starting with `Result: [`), and update [plugins.txt](plugins.txt)
+* First, update plugins in Jenkins
+    * Jenkins home > Manage Jenkins > Manage Plugins
+* Second, update plugin list used to build jenkins custom image (if this step is skipped, next time when the build env gets build the plugin will be missing)
+    * Retrieve plugin list, execute script [list_plugins.groovy](tools/list_plugins.groovy) in [jenkins](http://jenkins.example.org/script)
+    * Copy above script output (minus last line, the one starting with `Result: [`), and update [plugins.txt](plugins.txt)
 
 ### Base image (Jenkins LTS version)
 * Set base image to latest/desired Jenkins LTS [version](https://jenkins.io/changelog-stable/)
