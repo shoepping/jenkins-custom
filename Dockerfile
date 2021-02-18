@@ -31,6 +31,15 @@ RUN add-apt-repository \
 RUN apt-get update
 RUN apt-cache madison docker-ce
 
+RUN curl -fsSL https://apt.releases.hashicorp.com/gpg | apt-key add -
+RUN add-apt-repository \
+    "deb [arch=amd64] https://apt.releases.hashicorp.com \
+    $(lsb_release -cs) \
+    main"
+
+RUN apt-get update
+RUN apt-get install -y terraform
+
 ENV DEBIAN_DOCKER_VERSION=5:${DOCKER_VERSION}~3-0~debian-buster
 
 RUN apt-get install -y \
