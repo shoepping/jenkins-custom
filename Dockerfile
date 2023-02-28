@@ -1,9 +1,9 @@
 FROM jenkins/jenkins:2.263.4-lts-jdk11
 
 # https://github.com/moby/moby/releases
-ENV DOCKER_VERSION=20.10.2
+ENV DOCKER_VERSION=23.0.1
 # https://github.com/docker/compose/releases
-ENV DOCKER_COMPOSE_VERSION=1.27.4
+ENV DOCKER_COMPOSE_VERSION=1.28.2
 
 # JENKINS_VERSION defined in parent image
 LABEL DOCKER_COMPOSE_VERSION=${DOCKER_COMPOSE_VERSION} \
