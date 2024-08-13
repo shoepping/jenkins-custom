@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.263.4-lts-jdk11
+FROM jenkins/jenkins:2.471-jdk17
 
 # https://github.com/moby/moby/releases
 ENV DOCKER_VERSION=23.0.1
