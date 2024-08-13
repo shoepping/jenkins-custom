@@ -1,9 +1,9 @@
 FROM jenkins/jenkins:2.471-jdk17
 
 # https://github.com/moby/moby/releases
-ENV DOCKER_VERSION=23.0.1
+ENV DOCKER_VERSION=25.0.6
 # https://github.com/docker/compose/releases
-ENV DOCKER_COMPOSE_VERSION=1.28.2
+ENV DOCKER_COMPOSE_VERSION=2.29.2
 
 # JENKINS_VERSION defined in parent image
 LABEL DOCKER_COMPOSE_VERSION=${DOCKER_COMPOSE_VERSION} \
