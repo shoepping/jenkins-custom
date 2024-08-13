@@ -40,7 +40,7 @@ RUN add-apt-repository \
 RUN apt-get update
 RUN apt-get install -y terraform
 
-ENV DEBIAN_DOCKER_VERSION=5:${DOCKER_VERSION}~3-0~debian-buster
+ENV DEBIAN_DOCKER_VERSION=5:${DOCKER_VERSION}~debian.12~bookworm
 
 RUN apt-get install -y \
         docker-ce=${DEBIAN_DOCKER_VERSION} \
