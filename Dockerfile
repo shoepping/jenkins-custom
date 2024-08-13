@@ -58,7 +58,7 @@ USER jenkins
 COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
 
 USER root
-RUN /bin/jenkins-plugin-cli.sh < /usr/share/jenkins/ref/plugins.txt
+RUN bash -c /bin/jenkins-plugin-cli < /usr/share/jenkins/ref/plugins.txt
 
 # -Djenkins.install.runSetupWizard=false -> skip setup wizard
 # -Dorg.jenkinsci.plugins.docker.workflow.client.DockerClient.CLIENT_TIMEOUT=240 -> this is an attempt to fix java.io.IOException: Failed to rm container
