@@ -57,7 +57,7 @@ USER jenkins
 COPY install-plugins.sh /usr/local/bin/install-plugins.sh
 COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
 
-USER ROOT
+USER root
 RUN /usr/local/bin/install-plugins.sh < /usr/share/jenkins/ref/plugins.txt
 
 # -Djenkins.install.runSetupWizard=false -> skip setup wizard
