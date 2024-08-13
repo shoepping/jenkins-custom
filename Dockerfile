@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.471-jdk17
+FROM jenkins/jenkins:2.452.3-lts-jdk17
 
 # https://github.com/moby/moby/releases
 ENV DOCKER_VERSION=26.1.4
@@ -54,11 +54,11 @@ RUN curl -L "https://github.com/docker/compose/releases/download/${DOCKER_COMPOS
 RUN chmod +x /usr/local/bin/docker-compose
 
 USER jenkins
-COPY install-plugins.sh /usr/local/bin/install-plugins.sh
+#COPY install-plugins.sh /usr/local/bin/install-plugins.sh
 COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
 
 USER root
-RUN /usr/local/bin/install-plugins.sh < /usr/share/jenkins/ref/plugins.txt
+RUN /bin/jenkins-plugin-cli.sh < /usr/share/jenkins/ref/plugins.txt
 
 # -Djenkins.install.runSetupWizard=false -> skip setup wizard
 # -Dorg.jenkinsci.plugins.docker.workflow.client.DockerClient.CLIENT_TIMEOUT=240 -> this is an attempt to fix java.io.IOException: Failed to rm container
