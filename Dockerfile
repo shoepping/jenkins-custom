@@ -1,7 +1,7 @@
 FROM jenkins/jenkins:2.471-jdk17
 
 # https://github.com/moby/moby/releases
-ENV DOCKER_VERSION=25.0.6
+ENV DOCKER_VERSION=26.1.4
 # https://github.com/docker/compose/releases
 ENV DOCKER_COMPOSE_VERSION=2.29.2
 
@@ -40,7 +40,7 @@ RUN add-apt-repository \
 RUN apt-get update
 RUN apt-get install -y terraform
 
-ENV DEBIAN_DOCKER_VERSION=5:${DOCKER_VERSION}~debian.12~bookworm
+ENV DEBIAN_DOCKER_VERSION=5:${DOCKER_VERSION}-1~debian.12~bookworm
 
 RUN apt-get install -y \
         docker-ce=${DEBIAN_DOCKER_VERSION} \
